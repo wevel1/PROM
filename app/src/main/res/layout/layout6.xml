@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.ejercicios.layout6">
+
+    <TextView
+        android:id="@+id/l6_lbl1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cámara 1:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/l6_lbl2"
+        android:layout_below="@id/l6_lbl1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Luz 1:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/l6_lbl3"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/l6_lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cámara 2:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/l6_lbl4"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/l6_lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luz 2:"
+        android:textSize="20dp"/>
+
+    <Switch
+        android:id="@+id/l6_sw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_toRightOf="@id/l6_lbl1"/>
+
+    <Switch
+        android:id="@+id/l6_sw2"
+        android:layout_below="@id/l6_sw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_toRightOf="@id/l6_lbl1"/>
+
+    <ToggleButton
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/l6_lbl3"
+        android:layout_below="@id/l6_lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="NO"
+        android:textOn="Sí"/>
+
+    <ToggleButton
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/l6_lbl3"
+        android:layout_below="@id/l6_lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="NO"
+        android:textOn="Sí"
+        android:checked="true"/>
+
+</RelativeLayout>
