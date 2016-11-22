@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ejercicios</string>
+    <string name="ex_e0_but1">ACIVIDAD 01</string>
+    <string name="ex_e0_but2">ACTIVIDAD 02</string>
+    <string name="ex_e0_but3">ACTIVIDAD 03</string>
+    <string name="ex_e0_but4">SALIR</string>
+    <string name="ex_e0_but3toast">Actividad no implementada</string>
 </resources>

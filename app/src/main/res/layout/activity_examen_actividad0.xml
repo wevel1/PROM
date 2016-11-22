@@ -7,40 +7,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dm2.ejercicios.actividad0">
-
+    tools:context="com.example.dm2.ejercicios.examen_Actividad0">
     <Button
-        android:id="@+id/a0_but1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Actividad 01"/>
-
+        android:text="@string/ex_e0_but1"
+        android:id="@+id/ex_e0_but1"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="75dp"
+        android:onClick="acti1"/>
     <Button
-        android:id="@+id/a0_but2"
-        android:layout_below="@id/a0_but1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Actividad 02"/>
-
+        android:id="@+id/ex_e0_but2"
+        android:layout_below="@id/ex_e0_but1"
+        android:layout_marginLeft="120dp"
+        android:text="@string/ex_e0_but2"
+        android:onClick="acti2"/>
     <Button
-        android:id="@+id/a0_but3"
-        android:layout_below="@id/a0_but2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Actividad 03"/>
-
+        android:id="@+id/ex_e0_but3"
+        android:layout_below="@id/ex_e0_but2"
+        android:layout_marginLeft="120dp"
+        android:text="@string/ex_e0_but3"
+        android:onClick="acti3"/>
     <Button
-        android:id="@+id/a0_but4"
-        android:layout_below="@id/a0_but3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Actividad 04"/>
-
-    <Button
-        android:id="@+id/a0_but5"
-        android:layout_below="@id/a0_but4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SALIR"/>
-
+        android:id="@+id/ex_e0_but4"
+        android:layout_below="@id/ex_e0_but3"
+        android:layout_marginLeft="135dp"
+        android:text="@string/ex_e0_but4"
+        android:onClick="exit"/>
 </RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicios</string>
+    <string name="ex_e0_but1">ACTIVITY 01</string>
+    <string name="ex_e0_but2">ACTIVITY 02</string>
+    <string name="ex_e0_but3">ACTIVITY 03</string>
+    <string name="ex_e0_but4">EXIT</string>
+    <string name="ex_e0_but3toast">Activity not implemented</string>
+</resources>

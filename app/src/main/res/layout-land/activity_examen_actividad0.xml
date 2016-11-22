@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex_e0_but1"
+        android:id="@+id/ex_e0_but1"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="75dp"
+        android:onClick="acti1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex_e0_but2"
+        android:layout_toRightOf="@id/ex_e0_but1"
+        android:layout_marginTop="75dp"
+        android:text="@string/ex_e0_but2"
+        android:onClick="acti2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex_e0_but3"
+        android:layout_below="@id/ex_e0_but1"
+        android:layout_marginLeft="225dp"
+        android:text="@string/ex_e0_but3"
+        android:onClick="acti3"/>
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex_e0_but4"
+        android:layout_below="@id/ex_e0_but2"
+        android:layout_toRightOf="@id/ex_e0_but1"
+        android:text="@string/ex_e0_but4"
+        android:onClick="exit"/>
+</RelativeLayout>
